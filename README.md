@@ -1,6 +1,6 @@
 # RobotCodeUF-2019
 
-Below are the following steps to get setup with ROS...
+## Below are the following steps to get setup with ROS...
 
 1. [Install Ubuntu Linux 16.04 image (you may want to install the 64 bit image)](http://releases.ubuntu.com/16.04/)
 2. Create a bootable image using the image you downloaded by flashing it to a thumbdrive ([I recommend this software program to flash to a thumbdrive](https://www.balena.io/etcher/)]),
