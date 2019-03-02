@@ -7,7 +7,7 @@
    and then stick it in to your computer and restart your computer and boot into the thumbdrive and follow the installation process.
    There are many online tutorials and YouTube videos detailing this process.
 3. [Start reading this book](http://lsi.vc.ehu.es/pablogn/investig/ROS/A%20Gentle%20Introduction%20to%20ROS.pdf).
-4. [Install Fustion 360 on Windows Partition](https://www.autodesk.com/products/fusion-360/overview?mktvar002=1028563&&mkwid=sGqd1YrTz%7cpcrid%7c308370108716%7cpkw%7cfusion%20360%7cpmt%7ce%7cpdv%7cc%7cslid%7c%7cpgrid%7c64140211587%7cptaid%7caud-554208419493:kwd-330308867034%7c&intent=&utm_medium=cpc&utm_source=google&utm_campaign=GGL_Fusion+360_US_BR_RMKT_SEM_EXACT&utm_term=fusion%20360&utm_content=sGqd1YrTz%7cpcrid%7c308370108716%7cpkw%7cfusion%20360%7cpmt%7ce%7cpdv%7cc%7cslid%7c%7cpgrid%7c64140211587%7cptaid%7caud-554208419493:kwd-330308867034%7c&addisttype=g&s_kwcid=AL!8131199977!3!308370108716!e!!g!!fusion%20360&gclid=CjwKCAiA8OjjBRB4EiwAMZe6yzMp-CQelZoSLza5P_g1dVg6iRk-s1qif1UiZcgR0X0l9ZPeRn6VvxoCIc4QAvD_BwE&gclsrc=aw.ds)] and signup using your UFL accounts to access it for free.
+4. [Install Fustion 360 on Windows Partition](https://www.autodesk.com/products/fusion-360/overview?mktvar002=1028563&&mkwid=sGqd1YrTz%7cpcrid%7c308370108716%7cpkw%7cfusion%20360%7cpmt%7ce%7cpdv%7cc%7cslid%7c%7cpgrid%7c64140211587%7cptaid%7caud-554208419493:kwd-330308867034%7c&intent=&utm_medium=cpc&utm_source=google&utm_campaign=GGL_Fusion+360_US_BR_RMKT_SEM_EXACT&utm_term=fusion%20360&utm_content=sGqd1YrTz%7cpcrid%7c308370108716%7cpkw%7cfusion%20360%7cpmt%7ce%7cpdv%7cc%7cslid%7c%7cpgrid%7c64140211587%7cptaid%7caud-554208419493:kwd-330308867034%7c&addisttype=g&s_kwcid=AL!8131199977!3!308370108716!e!!g!!fusion%20360&gclid=CjwKCAiA8OjjBRB4EiwAMZe6yzMp-CQelZoSLza5P_g1dVg6iRk-s1qif1UiZcgR0X0l9ZPeRn6VvxoCIc4QAvD_BwE&gclsrc=aw.ds) and signup using your ufl.edu account to access it for free as a student.
 5. Download the Fusion 360 course file I created [here](https://a360.co/2EsgpaQ).
 6. Download the Fusion 360 robot 3D model that is used to generate the URDF file [here](https://a360.co/2TdAvzG).
 7. Follow the steps [here](https://github.com/syuntoku14/fusion2urdf) to convert the robot 3D model into a .urdf file.
@@ -22,3 +22,7 @@ Please let me know what you can figure out as well.
 [Here is the link to the final Hardware rules](https://drive.google.com/file/d/1KRLF-HR9mwWrROvVW-r7jZPUBfodCOC-/view?usp=sharing).
 
 If you can, try to verify that I made the course correctly in Fusion 360.
+
+We will develop the code for the two Arduino's once we figure out the setup and configuration for ROS to start simulating different SLAM algorithms and stuff.
+
+We will most likely be using [this tutorial](http://emanual.robotis.com/docs/en/platform/turtlebot3/slam/) to get started with SLAM, mapping, setting waypoints, and all the stuff.
