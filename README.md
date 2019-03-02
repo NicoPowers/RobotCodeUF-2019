@@ -1,5 +1,7 @@
 # RobotCodeUF-2019
 
+---
+
 ## Below are the following steps to get setup with ROS
 
 1. [Install Ubuntu Linux 16.04 image](http://releases.ubuntu.com/16.04/).
@@ -16,8 +18,7 @@
 9. Follow [this video](https://www.youtube.com/watch?v=aP4sDyrRzpU) to try to get the course map opened in Gazebo (you will have to [install gazebo on Linux Partition](http://gazebosim.org/)).
 10. Go [here](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch) to learn more about URDF files.
 
-I am still in the process of learning about how to integrate the Robot Model and the World File to start actually running simulations and stuff like that.
-Please let me know what you can figure out as well.
+I am still in the process of learning about how to integrate the Robot Model and the World File to start actually running simulations and stuff like that, so please experiement with stuff at home and let me know what you can figure out as well.
 
 [Here is the link to the final Hardware rules](https://drive.google.com/file/d/1KRLF-HR9mwWrROvVW-r7jZPUBfodCOC-/view?usp=sharing).
 
@@ -26,3 +27,32 @@ If you can, try to verify that I made the course correctly in Fusion 360.
 We will develop the code for the two Arduino's once we figure out the setup and configuration for ROS to start simulating different SLAM algorithms and stuff.
 
 We will most likely be using [this tutorial](http://emanual.robotis.com/docs/en/platform/turtlebot3/slam/) to get started with SLAM, mapping, setting waypoints, and all the stuff.
+
+---
+
+# TODO
+
+## Software
+
+1. Properly import the robot 3D model into RViZ with the corrent base_links and joints orientation and position.
+2. Figure out how to simultanously place the course file (.dae file) and the exported robot 3D model (.urdf file) in either RViZ or Gazebo to start running simulations.
+3. Figure out how to create a virtual LiDAR sensor for the simulations.
+4. Generate the course map in RViZ using the teleop key and our robot.
+5. Set way points in RViZ and linearly approximate spiral motion.
+6. Try to create artificial artifacts in generated map to resemble amber lights.
+7. Figure out if we can set waypoints by using features on the generated map (like near corners or something)
+8. Figure out how to automate the setting of waypoints and set a timer to activate each phase of the program:
+   1. Exit the starting square
+   2. Enter the orbital circle
+   3. Complete 2 - 3 spirals to push debris outwards
+   4. Hug tower and do as many orbits as possible
+   5. Return to home base and raise on-board flag
+
+## Hardware
+
+1. Create 4 1' x 1' squares to extend 8' walls to 9' (using braces)
+2. Create back side caster to prevent robot from tipping.
+3. Create center tower out of 4 peices of wood.
+4. Create center circle using wire or tape.
+5. Get bricks to hold walls in place when assembling course.
+6. Color UF Flag with blue and orange colors and fix it to servo motor.
